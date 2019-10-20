@@ -1,0 +1,284 @@
+.fl {
+    float: left;
+} 
+.fr {
+    float: right;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+      url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+      url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+.icomoon {
+    font-family: 'icomoon';
+    font-size: 16px;
+    line-height: 26px;
+}
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.shortcut .fr li:last-child a{
+    border: 0;
+}
+.style-red {
+    color: #c81623;
+}
+.spacer {
+    width: 1px;
+    height: 12px;
+    background: #666;
+    margin: 9px 12px 0; /* 左右12px，上8px，下0 */
+}
+/* 顶部快捷导航 */
+.shortcut {
+    height: 31px;
+    background: #f1f1f1;
+    line-height: 31px;
+}
+.shortcut li {
+    float: left;
+}
+/* header区域 */
+.header {
+    height: 105px;
+   /*  background: pink; */
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top:25px;
+    left: 0;
+    height: 56px;
+    width: 175px;
+}
+.logo a {
+    position: absolute;
+    height: 56px;
+    width: 175px;
+    background:url(../img/logo.png) no-repeat;
+    /* text-indent: -9999px; 首行缩进
+    overflow: hidden; 这是淘宝的做法*/
+    font-size: 0;  /* 这是京东的做法 */
+}
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px; 
+}
+.text {
+    float: left;
+    width: 455px;
+    height: 32px;
+    border: 2px solid #b1191a;
+    color: #ccc;
+    padding-left: 10px;
+    box-sizing: border-box;  /* CSS3盒子模型 border 和 padding 都包含到 width 里面去 */
+}
+.btn {
+    float: left;
+    width: 82px;
+    height: 32px;
+    background-color: #b1191a;
+    border: 0;  /* 去除边框 */
+    font-size: 16px;
+    color: #fff;
+}
+.hotwords {
+    position: absolute;
+    left: 348px;
+    top: 65px;
+}
+.hotwords a{
+    margin: 0 6px;
+}
+.shopcar {
+    position: absolute;
+    right: 64px;
+    top: 25px;
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    line-height: 34px;
+    text-align: center;
+}
+.car {
+    font-family: 'icomoon';
+    color: #da5555;
+}
+.arrow {
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+.count {
+    position: absolute;
+    top: -5px;
+    /* right: 18;  这样做添加文字会往左走，应该使用左侧对齐，才能使得文字往右走 */
+    left: 100px;
+    background-color: #e60012;
+    height: 14px;
+    padding: 0 3px;
+    line-height: 14px;
+    color: #fff;
+    /* border-radius: 左上角 右上角 右下角 左下角 */
+    border-radius: 50% 50% 50% 0;
+}
+/* nav */
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+.dropdown {
+    width: 209px;
+    height: 45px;
+}
+.dropdown .dt {
+    /* width: 100%; */
+    height: 100%;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+.dropdown .dd {
+    height: 450px;
+    background-color: #c81623;
+    margin-top: 2px;  /* 让nav线露出来 */
+}
+.menu_item {
+    height: 25px;
+    line-height: 25px;
+    padding-left: 13px;
+    transition: all 0.3s;
+}
+.menu_item:hover {
+    background:rgba(0, 0, 0, 0.2);
+    padding-left: 18px;
+}
+.menu_item a {
+    font-size: 14px;
+    color: #fff;
+}
+.menu_item a:hover {
+    color: #ff6700;;
+}
+.menu_item span {
+    color: #fff;
+}
+.arrow2 {
+    float: right;
+    font-family: "icomoon";
+    color: #fff;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.navitems {
+    margin-left: 10px;
+}
+.navitems li {
+    float: left;
+}
+.navitems li a{
+    float: left;
+    display: block;
+    height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    font-size: 16px;
+}
+/* footer部分 */
+.footer {
+    height: 416px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    box-sizing: border-box;  /* CSS3盒子模型 border 和 padding 都包含到 width 里面去 */
+}
+.mod_service {
+    height: 79px;
+    /* background-color: pink; */
+    border-bottom: 1px solid #ccc;
+}
+.mod_service li {
+    float: left;
+    width: 240px;
+    height: 79px;
+}
+.mod_service_icon {
+    /* 浮动的盒子 可以直接给大小 不需要转换 */
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-left: 35px;
+    background:url(../img/icons.png) no-repeat;
+}
+.mod_service_zheng {
+    background-position: -253px -3px;
+}
+.mod_service_tit {
+    float: left;
+    margin-left: 5px;
+}
+.mod_service_tit h5 {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.mod_service_tit p {
+    font-size: 12px;
+}
+.mod_service_kuai {
+    background-position: -255px -54px;
+}
+.mod_service_bao {
+    background-position: -257px -105px;
+}
+.mod_service_te {
+    background-position: -257px -157px;
+}
+.mod_service_bang {
+    background-position: -256px -209px;
+}
+.mod_help {
+    height: 187px;
+    /* background-color: pink; */
+    border-bottom: 1px solid #ccc;
+}
+.mod_help_item {
+    float: left;
+    width: 200px;
+    padding: 20px 0 0 50px;
+    box-sizing: border-box;
+}
+.mod_help_item dt {
+    height: 25px;
+    font-size: 16px;
+}
+.mod_help_item dd {
+    height: 22px;
+}
+.mod_help_app dt,
+.mod_help_app p {
+    padding-left: 15px;
+}
+.mod_help_app img{
+    margin: 7px 0;
+}
+.mod_copyright {
+    text-align: center;
+}
+.mod_copyright_links {
+    margin: 20px 0 15px 0;
+}
+.mod_copyright_span {
+    margin: 0 6px;
+}
+.mod_copyright_info {
+    line-height: 18px;
+}

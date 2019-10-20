@@ -1,0 +1,324 @@
+/* 这个文件里面放的是首页的样式 */
+.main {
+    width: 980px;
+    height: 440px;
+    /* background-color: pink; */
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    height: 440px;
+    width: 720px;
+    background-color: purple;
+    background: purple;
+}
+.arrow_l,
+.arrow_r {
+    position: absolute;
+    top:50%;  /* 走父亲高度的一半 */
+    transform: translateY(-50%);  /* 走的自己高度的一半 */
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: 'icomoon';
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.arrow_r {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /* background-color: #fff; */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /* 鼠标经过显示小手 */
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+}
+.newflash {
+    width: 250px;
+    height: 440px;
+    /* background-color:skyblue; */
+}
+.news {
+    height: 158px;
+    border: 1px solid #ccc;
+    /* background-color: pink; */
+}
+.news_hd {
+    height: 30px;
+    border-bottom: 1px dotted #ccc;  /* dotted 点线 dashed虚线 solid实线 */
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 30px;
+    
+}
+.news_hd a {
+    float: right;
+    font-size: 12px;
+}
+.news_hd a span {
+    font-family: 'icomoon';
+    font-size: 14px;
+    vertical-align: middle; 
+}
+.news_bd {
+    padding: 10px 0 0 15px;
+}
+.news_bd li{
+    height: 22px;
+    width: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news_bd li a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lifeservice {
+    overflow: hidden;
+    height: 206px;
+    /* background-color: purple; */
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifeservice ul {
+    width: 252px;  /* 将父盒子增加宽度，让子盒子可以在一行内完全显示 */
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+    display: block;
+    /* 解决i引起的外边距塌陷合并的问题 */
+    overflow: hidden;
+    height: 100%;
+}
+.lifeservice li p {
+    text-align: center;
+}
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+.service_ico_huafei {
+    background-position: -17px -16px;
+}
+.service_ico_feiji {
+    width: 26px;
+    background-position: -78px -16px;
+}
+.service_ico_dianying {
+    width: 26px;
+    background-position: -140px -16px;
+}
+.service_ico_game {
+    width: 26px;
+    height: 24px;
+    background-position: -206px -16px;
+}
+.service_ico_caipiao {
+    background-position: -17px -88px;
+}
+.service_ico_jiayou {
+    width: 26px;
+    height: 23px;
+    background-position: -77px -88px;
+}
+.service_ico_jiudian {
+    width: 24px;
+    height: 23px;
+    background-position: -141px -88px;
+}
+.service_ico_huoche {
+    width: 26px;
+    height: 23px;
+    background-position: -206px -88px;
+}
+.service_ico_zhongchou {
+    width: 24px;
+    height: 27px;
+    background-position: -17px -159px;
+}
+.service_ico_licai {
+    width: 26px;
+    height: 27px;
+    background-position: -78px -158px;
+}
+.service_ico_lipinka {
+    margin-top: 16px;
+    width: 24px;
+    height: 20px;
+    background-position: -141px -159px;
+}
+.service_ico_baitiao {
+    width: 26px;
+    height: 27px;
+    background-position: -206px -159px;
+}
+.hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg);
+}
+.bargain {
+    height: 70px;
+    margin-top: 2px;
+}
+/* 推荐服务模块 */
+.recommend {
+    height: 163px;
+    /* background-color: pink; */
+    margin-top: 10px;
+}
+.recom_hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recom_hd img {
+    margin: 30px 0 15px 0;
+}
+.recom_hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+.recom_bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recom_bd li {
+    float: left;
+    width: 250px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;  /* CSS3盒子模型 border 和 padding 都包含到 width 里面去 */
+    /* background-color: pink; */
+    margin-top: 10px;
+}
+.recom_bd .last {
+    border-right: 0;
+}
+
+/* 楼层区 floor */
+.box_hd {
+    height: 30px;
+    /* background-color: pink; */
+    border-bottom: 2px solid #c81623;
+    margin-top: 20px;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list li {
+    float: left;
+}
+.tab_list li a {
+    margin: 0 15px;
+}
+.box_bd {
+    height: 360px;
+/*     background-color: pink; */
+}
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+.w329 {
+    width: 329px;
+}
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc; 
+}
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.tab_con li{
+    float: left;
+    height: 360px;
+}
+.tab_con_item {
+    border-bottom: 1px solid #ccc;
+}
+.tab_con_list {
+    overflow: hidden;  /* 清除浮动 */
+    margin-bottom: 15px;
+}
+.tab_con_list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-top: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+.box_bd li {
+    overflow: hidden;
+}
+.box_bd img {
+    /* 过渡写在本身上，谁做动画给谁加 */
+    transition: all 0.3s;
+}
+/* 鼠标经过图片往右走8px */
+.box_bd img:hover {
+    margin-left: 8px;
+}
+/* 电梯导航 */
+.fixedtool {
+    position: fixed;
+    width: 66px;
+    background-color: #fff;
+    top: 100px;
+    margin-left: -676px;  /* 走版心宽度的一半加自己的宽度 600+66  再多给10px*/
+    left: 50%;  /* 走浏览器的一半 */
+}
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;  /* 变小手 */
+}
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}

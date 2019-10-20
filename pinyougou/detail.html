@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>详情页</title>
+    <meta name="description"
+        content="品优购JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+    <meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,品优购" />
+    <!-- 引入favicon.ico图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- 引进初始化的css文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引进公共样式的css文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入详情页面的css文件 -->
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+
+<body>
+    <!-- 顶部快捷导航start -->
+    <div class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>品优购欢迎你！</li>
+                    <li>
+                        <a href="#">请登录</a>
+                        <a href="#" class="style-red">免费注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <div>
+                    <ul>
+                        <li><a href="">我的订单</a></li>
+                        <li class="spacer"></li>
+                        <li>
+                            <a href="">我的品优购</a>
+                            <i class="icomoon"></i>
+                        </li>
+                        <li class="spacer"></li>
+                        <li><a href="">品优购会员</a></li>
+                        <li class="spacer"></li>
+                        <li><a href="">企业采购</a></li>
+                        <li class="spacer"></li>
+                        <li>
+                            <a href="">关注品优购</a>
+                            <i class="icomoon"></i>
+                        </li>
+                        <li class="spacer"></li>
+                        <li>
+                            <a href="">客户服务</a>
+                            <i class="icomoon"></i>
+                        </li>
+                        <li class="spacer"></li>
+                        <li>
+                            <a href="">网站导航</a>
+                            <i class="icomoon"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部快捷导航end -->
+    <!--  header start -->
+    <div class="header w">
+        <!-- logo -->
+        <div class="logo">
+            <h1>
+                <a href="index.html" title="品优购">品优购</a>
+            </h1>
+        </div>
+        <!-- search -->
+        <div class="search">
+            <input type="text" class="text" placeholder="请输入搜索内容...">
+            <button class="btn">搜索</button>
+        </div>
+        <!-- hotwords -->
+        <div class="hotwords">
+            <a href="#" class="style-red">优惠购首发</a>
+            <a href="#">童装童鞋</a>
+            <a href="#">新款包包</a>
+            <a href="#">十代酷睿</a>
+            <a href="#">iphone11</a>
+            <a href="#">华为mate30</a>
+            <a href="#">9.9包邮</a>
+        </div>
+        <!-- shopcar -->
+        <div class="shopcar">
+            <i class="car"></i>
+            <a href="#">我的购物车</a>
+            <i class="arrow"></i>
+            <i class="count">8</i>
+        </div>
+    </div>
+    <!-- header end -->
+    <!-- nav start -->
+    <div class="nav">
+        <div class="w">
+            <div class="dropdown fl">
+                <div class="dt"> 全部商品分类 </div>
+                <div class="dd" style="display: none">
+                    <!-- 此处先设置隐藏 -->
+                    <ul>
+                        <li class="menu_item">
+                            <a href="#">电器商品</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">手机</a> <span>/</span>
+                            <a href="#">运营商</a> <span>/</span>
+                            <a href="#">数码</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">电脑</a> <span>/</span>
+                            <a href="#">办公</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">家居</a> <span>/</span>
+                            <a href="#">家具</a> <span>/</span>
+                            <a href="#">家装</a> <span>/</span>
+                            <a href="#">厨具</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">男装</a> <span>/</span>
+                            <a href="#">女装</a> <span>/</span>
+                            <a href="#">童装</a> <span>/</span>
+                            <a href="#">内衣</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">美妆</a> <span>/</span>
+                            <a href="#">个护清洁</a> <span>/</span>
+                            <a href="#">宠物</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">女鞋</a> <span>/</span>
+                            <a href="#">箱包</a> <span>/</span>
+                            <a href="#">钟表</a> <span>/</span>
+                            <a href="#">珠宝</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">男鞋</a> <span>/</span>
+                            <a href="#">运动</a> <span>/</span>
+                            <a href="#">户外</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">房产</a> <span>/</span>
+                            <a href="#">汽车</a> <span>/</span>
+                            <a href="#">汽车用品</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">母婴</a> <span>/</span>
+                            <a href="#">玩具乐器</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">食品</a> <span>/</span>
+                            <a href="#">酒类</a> <span>/</span>
+                            <a href="#">生鲜</a> <span>/</span>
+                            <a href="#">特产</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">艺术</a> <span>/</span>
+                            <a href="#">礼品鲜花</a> <span>/</span>
+                            <a href="#">农资绿植</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">医药保健</a> <span>/</span>
+                            <a href="#">计生情趣</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">图书</a> <span>/</span>
+                            <a href="#">文娱</a> <span>/</span>
+                            <a href="#">教育</a> <span>/</span>
+                            <a href="#">电子书</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">机票</a> <span>/</span>
+                            <a href="#">酒店</a> <span>/</span>
+                            <a href="#">旅游</a> <span>/</span>
+                            <a href="#">生活</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">理财</a> <span>/</span>
+                            <a href="#">众筹</a> <span>/</span>
+                            <a href="#">白条</a> <span>/</span>
+                            <a href="#">保险</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">安装</a> <span>/</span>
+                            <a href="#">维修</a> <span>/</span>
+                            <a href="#">清洗</a> <span>/</span>
+                            <a href="#">二手</a>
+                            <i class="arrow2"></i>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#">工业品</a>
+                            <i class="arrow2"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右侧导航 -->
+            <div class="navitems fl">
+                <ul>
+                    <li>
+                        <a href="#">服装城</a>
+                    </li>
+                    <li>
+                        <a href="#">美妆馆</a>
+                    </li>
+                    <li>
+                        <a href="#">超市</a>
+                    </li>
+                    <li>
+                        <a href="#">全球购</a>
+                    </li>
+                    <li>
+                        <a href="#">闪购</a>
+                    </li>
+                    <li>
+                        <a href="#">团购</a>
+                    </li>
+                    <li>
+                        <a href="#">拍卖</a>
+                    </li>
+                    <li>
+                        <a href="#">有趣</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- nav end -->
+
+    <!--  详情页内容部分 start-->
+    <div class="de_container w">
+        <!-- 面包屑导航 -->
+        <div class="crumb_wrap">
+            <a href="#">女鞋 / 箱包 / 钟表 / 珠宝</a>
+            &gt; <a href="#">女鞋</a>
+            &gt; <a href="#">阿迪达斯（Adidas）</a>
+            &gt; <a href="#">adidas neo阿迪休闲...</a>
+        </div>
+        <!-- 产品介绍模块 -->
+        <div class="product_intro clearfix">
+            <!-- 预览区域 -->
+            <div class="preview_wrap fl">
+                <div class="preview_img">
+                    <img src="upload/s2.jpg" width="350px">
+                </div>
+
+                <div class="preview_list">
+                    <a href="#" class="arrow_prev"></a>
+                    <a href="#" class="arrow_next"></a>
+                    <ul class="list_item">
+                        <li class="current">
+                            <img src="upload/pre1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="upload/pre2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="upload/pre3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="upload/pre4.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="upload/pre5.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 产品详细信息 -->
+            <div class="itemInfo_wrap fr">
+                <div class="sku_name">
+                    adidas neo阿迪休闲2019女子HOOPS 2.0 MID篮球休闲鞋EF0120 EF0120 38
+                </div>
+                <div class="news">
+                    推荐选择下方[优惠购],一键搞定，包邮，七天无理由退款哟！
+                </div>
+                <div class="summary">
+                    <dl class="summary_price">
+                        <dt>价 格</dt>
+                        <dd>
+                            <i class="price">￥629.00</i>
+                            <a href="">降价通知</a>
+                            <div class="remark">累计评价10098</div>
+                        </dd>
+                    </dl>
+                    <dl class="summary_promotion">
+                        <dt>促 销</dt>
+                        <dd>
+                            <em>满减</em>
+                            满300元减20元，满600元减40元，满900元减60元，包邮(限中国内地)
+                            <a href="#">详情&gt;&gt;</a>
+                        </dd>
+                    </dl>
+                    <dl class="summary_support">
+                        <dt>支持</dt>
+                        <dd>7天无理由退货</dd>
+                    </dl>
+                    <dl class="summary_distribution">
+                        <dt>配 送 至</dt>
+                        <dd>
+                            <div class="summary_test_wrap">
+                                山西省太原市尖草坪区尖草坪街道
+                                <span></span>
+                            </div>
+                            <em class="youhuo">有货</em>
+                            <div class="zhichi fl">支持</div>
+                            <div class="tksh">
+                                <a href="#" class="style-red">闪电退款</a>
+                                <i>|</i>
+                                <a href="#" class="style-red">极速审核</a>
+                            </div>
+                            <div class="jiashou">店铺订单不满99元，收运费8元</div>
+                            <div class="fahuo">由<a href="#" class="style-red">品优购自营</a>负责发货，并提供售后服务</div>
+                        </dd>
+                    </dl>
+                    <dl class="choose_size">
+                        <dt>选择尺码</dt>
+                        <dd>
+                            <a href="javascript:;">36</a>
+                            <a href="javascript:;">36.5</a>
+                            <a href="javascript:;">37</a>
+                            <a href="javascript:;" class="current">38</a>
+                            <a href="javascript:;">38.5</a>
+                            <a href="javascript:;">39</a>
+                            <a href="javascript:;">40</a>
+                            <a href="javascript:;">40.5</a>
+                        </dd>
+                    </dl>
+                    <dl class="choose_baitiao">
+                        <dt>白条分期</dt>
+                        <dd>
+                            <a href="javascript:;">不分期</a>
+                            <a href="javascript:;">￥233.8起×3期</a>
+                            <a href="javascript:;">￥121.1起×6期</a>
+                            <a href="javascript:;" class="current">￥68.8起×12期</a>
+                        </dd>
+                    </dl>
+                    <div class="choose_btns">
+                        <div class="choose_amount">
+                            <input type="text" value="1">
+                            <a href="javascript:;" class="add">+</a>
+                            <a href="javascript:;" class="reduce">-</a>
+                        </div>
+                        <a href="javascript:;" class="addshopcar">
+                            加入购物车
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 产品细节模块 start -->
+        <div class="product_detail clearfix">
+            <!-- aside -->
+            <div class="aside">
+                <div class="table_list">
+                    <ul>
+                        <li class="first_table current">店铺热销</li>
+                        <li class="second_table">热门关注</li>
+                    </ul>
+                </div>
+                <div class="table_con">
+                    <ul>
+                        <li>
+                            <img src="upload/aside_img.jpg">
+                            <h5>adidas阿迪达斯三叶草2019男子TREFOIL T-</h5>
+                            <div class="aside_price">￥179.00</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/aside_img2.jpg">
+                            <h5>adidas阿迪达斯三叶草2019新款中性贝壳头</h5>
+                            <div class="aside_price">￥599.00</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/aside_img3.jpg">
+                            <h5>adidas阿迪达斯2019新款男子运动基础系列针织长裤</h5>
+                            <div class="aside_price">￥188.00</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+                        <li>
+                            <img src="upload/aside_img4.jpg">
+                            <h5>adidas阿迪达斯三叶草2019男子3-STRIPES TEE</h5>
+                            <div class="aside_price">￥89.00</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+                        <li class="current">
+                            <img src="upload/aside_img5.jpg">
+                            <h5>adidas阿迪达斯2019男子COURTSMASH激情赛场网</h5>
+                            <div class="aside_price">￥374.00</div>
+                            <a href="#" class="as_addcar">加入购物车</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- detail -->
+            <div class="detail">
+                <div class="detail_tab_list">
+                    <ul>
+                        <li class="current"><a href="#">商品介绍</a></li>
+                        <li><a href="#">规格与包装</a></li>
+                        <li><a href="#">售后保障</a></li>
+                        <li><a href="#">商品评价(10098)</a></li>
+                        <li><a href="#">本店好评商品</a></li>
+                    </ul>
+                </div>
+                <div class="detail_tab_con">
+                    <div class="item">
+                        <ul class="item_info">
+                            <li>品牌： 阿迪达斯（Adidas）</li>
+                            <li> 商品名称：adidas neo阿迪休闲2019女子HOOPS 2.0 MID篮球休闲鞋EF0120 EF0120 36</li>
+                            <li> 商品编号：59159501461</li>
+                            <li> 店铺： 品优购自营店</li>
+                            <li> 商品毛重：1.0kg</li>
+                            <li> 货号：EF0120</li>
+                            <li> 鞋面材质：其它</li>
+                            <li> 闭合方式：系带</li>
+                            <li> 鞋底材质：其它</li>
+                            <li> 选购热点：经典款</li>
+                            <li> 款式：低帮</li>
+                            <li> 功能：耐磨</li>
+                            <li> 适用人群：女士</li>
+                            <li> 上市时间：2019年冬季</li>
+                        </ul>
+                        <p>
+                            <a href="#" class="more">更多参数</a>
+                        </p>
+                        <img src="upload/detail_img01.jpg" alt="">
+                        <img src="upload/detail_img02.jpg" alt="">
+                        <img src="upload/detail_img03.jpg" alt="">
+                        <img src="upload/detail_img04.jpg" alt="">
+                        <img src="upload/detail_img05.jpg" alt="">
+                        <img src="upload/detail_img06.jpg" alt="">
+                    </div>
+                    <!--
+                    <div class="item">规格与包装</div>
+                    <div class="item">售后保障</div> 
+                    -->
+                </div>
+            </div>
+        </div>
+        <!-- 产品细节模块 start -->
+    </div>
+    <!--  详情页内容部分 end -->
+
+    <!-- footer start -->
+    <div class="footer">
+        <div class="w">
+            <!-- mod_service -->
+            <div class="mod_service">
+                <ul>
+                    <li>
+                        <i class="mod_service_icon mod_service_zheng"></i>
+                        <div class="mod_service_tit">
+                            <h5>正品保障</h5>
+                            <p>正品保障,提供发票</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service_icon mod_service_kuai"></i>
+                        <div class="mod_service_tit">
+                            <h5>极速物流</h5>
+                            <p>极速物流,极速送达</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service_icon mod_service_bao"></i>
+                        <div class="mod_service_tit">
+                            <h5>无忧售后</h5>
+                            <p>7天无理由退换货</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service_icon mod_service_te"></i>
+                        <div class="mod_service_tit">
+                            <h5>特色服务</h5>
+                            <p>私人定制家电套餐</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod_service_icon mod_service_bang"></i>
+                        <div class="mod_service_tit">
+                            <h5>帮助中心</h5>
+                            <p>您的购物指南</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- mod_help -->
+            <div class="mod_help">
+                <dl class="mod_help_item">
+                    <dt>购物指南</dt>
+                    <dd>
+                        <a href="#">购物流程</a>
+                    </dd>
+                    <dd>
+                        <a href="#">会员介绍</a>
+                    </dd>
+                    <dd>
+                        <a href="#">生活旅行/团购</a>
+                    </dd>
+                    <dd>
+                        <a href="#">常见问题</a>
+                    </dd>
+                    <dd>
+                        <a href="#">大家电</a>
+                    </dd>
+                    <dd>
+                        <a href="#">联系客服</a>
+                    </dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>配送方式</dt>
+                    <dd>
+                        <a href="#">上门自取</a>
+                    </dd>
+                    <dd>
+                        <a href="#">211限时达</a>
+                    </dd>
+                    <dd>
+                        <a href="#">配送服务查询</a>
+                    </dd>
+                    <dd>
+                        <a href="#">配送费收取标准</a>
+                    </dd>
+                    <dd>
+                        <a href="#">海外配送</a>
+                    </dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>支付方式</dt>
+                    <dd>
+                        <a href="#">货到付款</a>
+                    </dd>
+                    <dd>
+                        <a href="#">在线支付</a>
+                    </dd>
+                    <dd>
+                        <a href="#">分期付款</a>
+                    </dd>
+                    <dd>
+                        <a href="#">邮局汇款</a>
+                    </dd>
+                    <dd>
+                        <a href="#">公司转账</a>
+                    </dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>售后服务</dt>
+                    <dd>
+                        <a href="#">售后政策</a>
+                    </dd>
+                    <dd>
+                        <a href="#">价格保护</a>
+                    </dd>
+                    <dd>
+                        <a href="#">退款说明</a>
+                    </dd>
+                    <dd>
+                        <a href="#">返修/退换货</a>
+                    </dd>
+                    <dd>
+                        <a href="#">修改订单</a>
+                    </dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>特色服务</dt>
+                    <dd>
+                        <a href="#">夺宝岛</a>
+                    </dd>
+                    <dd>
+                        <a href="#">DIY装机</a>
+                    </dd>
+                    <dd>
+                        <a href="#">延保服务</a>
+                    </dd>
+                    <dd>
+                        <a href="#">品优购E卡</a>
+                    </dd>
+                    <dd>
+                        <a href="#">品优购通信</a>
+                    </dd>
+                </dl>
+                <dl class="mod_help_item mod_help_app">
+                    <dt>帮助中心</dt>
+                    <dd>
+                        <img src="upload/erweima.png">
+                        <p>品优购客户端</p>
+                    </dd>
+                </dl>
+            </div>
+            <!-- mod_copyright -->
+            <div class="mod_copyright">
+                <p class="mod_copyright_links">
+                    <a href="#">关于我们</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">联系我们</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">联系客服</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">商家入驻</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">营销中心</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">手机品优购</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">友情链接</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">销售联盟</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">品优购社区</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">品优购公益</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">English Site</a>
+                    <span class="mod_copyright_span">|</span>
+                    <a href="#">Contact U</a>
+                </p>
+                <p class="mod_copyright_info">
+                    地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>
+                    京ICP备08001421号京公网安备110108007702
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+</body>
+
+</html>

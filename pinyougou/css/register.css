@@ -1,0 +1,127 @@
+/* 注册页面的CSS */
+.w {
+    width: 1200px;
+    margin: auto;
+}
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo {
+    padding-top: 15px;
+}
+.registerarea {
+    height: 520px;
+    /* background-color: pink; */
+    border: 1px solid #ccc;
+    margin-top: 20px;   
+}
+.registerarea h3 {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 16px;
+}
+.registerarea h3 em {
+    float: right;
+    font-size: 14px;
+}
+.registerarea a {
+    color: #c81623;
+}
+.reg_form {
+    width: 600px;
+    height: 400px;
+    /* background-color: pink; */
+    margin: 40px auto 0;
+}
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+.inp {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+.reg_form li {
+    margin-bottom: 15px;
+}
+.error {
+    color: #df3033;
+    margin-left: 10px;
+}
+.error_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+}
+.success {
+    color: #40b83f;
+    margin-left: 10px;
+}
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/success.png) no-repeat;
+    vertical-align: middle;
+}
+.safe {
+    padding-left: 187px;
+    color: #b2b2b2;
+}
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79110;
+}
+.agree {
+    padding-top: 20px;
+    padding-left: 115px;
+}
+.agree .inpu {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.over {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    margin: 30px 0 0 130px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+}
+.mod_copyright {
+    text-align: center;
+}
+.mod_copyright_links {
+    margin: 20px 0 15px 0;
+}
+.mod_copyright_span {
+    margin: 0 6px;
+}
+.mod_copyright_info {
+    line-height: 18px;
+}

@@ -1,0 +1,336 @@
+/* 详情页的样式文件 */
+.de_container {
+    margin-top: 20px;
+}
+.crumb_wrap {
+    height: 25px;
+}
+.crumb_wrap a {
+    margin: 0 10px;
+}
+.preview_wrap {
+    width: 352px;
+    height: 590px;
+    /* background-color: pink; */
+}
+.preview_img {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #ccc;
+}
+.preview_list {
+    position: relative;
+    height: 54px;
+    /* background-color: pink; */
+    margin-top: 20px;
+} 
+.list_item {
+    width: 300px;
+    height: 54px;
+    /* background-color: purple; */
+    margin: 0 auto;
+}
+.list_item li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    /* background-color: skyblue; */
+    border: 2px solid #fff;
+    margin: 0 3px;
+}
+.list_item .current {
+    border: 2px solid #c81623;
+}
+.arrow_prev,
+.arrow_next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 32px;
+    background-color: purple;
+}
+.arrow_prev {
+    left: 0;
+    background: url(../img/arrow-prev.png) no-repeat;
+}
+.arrow_next {
+    right: 0;
+    background: url(../img/arrow-next.png) no-repeat;
+}
+.itemInfo_wrap {
+    width: 718px;
+    /* background-color: purple; */
+}
+.itemInfo_wrap .sku_name{
+    font: 700 16px Arial,"microsoft yahei";
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+.news {
+    color: #e12228;
+    height: 32px;
+}
+.summary dl {
+    overflow: hidden;  /* 清除浮动 */
+}
+.summary dt,
+.summary dd {
+    float: left;
+}
+.summary dt {
+    width: 60px;
+    padding-left: 10px;
+    line-height: 36px;
+}
+
+.summary_price,
+.summary_promotion {
+    position: relative;
+    padding: 10px 0;
+    background-color: #fee9eb;
+}
+.price {
+    font-size: 24px;
+    color: #e12228;
+}
+.summary_price a {
+    color: #005aa0;
+}
+.remark {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.summary_promotion {
+    padding-top: 0;
+}
+.summary_promotion dd {
+    width: 430px;
+    line-height: 36px;
+}
+.summary_promotion em{
+    width: 24px;
+    height: 16px;
+    padding: 2px 3px;
+    color: #c81623;
+    border: 1px solid #c81623;
+    margin-right: 5px;
+}
+.summary_support dd {
+    line-height: 36px;
+}
+.summary_test_wrap {
+    font-family: 'icomoon';
+    float: left;
+    position: relative;
+    top: 0;
+    height: 32px;
+    background: #fff;
+    border: 1px solid #CECBCE;
+    padding: 0 4px 0 4px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.summary_test_wrap span {
+    font-size: 14px;
+}
+.summary_distribution .youhuo,
+.summary_distribution .zhichi {
+    margin-left: 5px;
+    line-height: 36px;
+}
+.summary_distribution em {
+    margin-right: 15px;
+    float: left;
+    font-size: 12px;
+    color: #999;
+    font-weight: 700;
+    line-height: 36px;
+}
+.summary_distribution .tksh {
+    float: left;
+    padding: 0 10px;
+    line-height: 36px;
+}
+
+.summary_distribution .fahuo {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+}
+.choose_size {
+    margin-bottom: 10px;
+}
+.choose_size a,
+.choose_baitiao a {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    padding: 0 13px;
+    border: 1px solid #ccc;
+}
+/* .choose_size a.current {
+    border-color: #c81623;
+}
+.choose_baitiao a.current {
+    border-color: #c81623; 
+} */
+.summary a.current {    /* 利用父级简写 */
+    border-color: #c81623;
+}
+.choose_btns {
+    margin-top: 20px;
+}
+.choose_amount {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-color: pink;
+}
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+}
+.add,
+.reduce {
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.add {
+    top: 0;
+}
+.reduce {
+    bottom: 0;
+    cursor: not-allowed;    /* 禁止鼠标样式 */
+}
+.addshopcar {
+    float: left;
+    width: 142px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #c81623;
+    color: #fff;
+    margin-left: 10px;
+    
+}
+.product_detail {
+    margin-bottom: 50px;
+}
+.aside {
+    float: left;
+   width: 208px;
+   /* 一会儿回来删 
+   height: 1000px; */
+   border: 1px solid #ccc; 
+}
+.table_list {
+    height: 34px;
+    /* background-color: pink; */
+}
+/* 把背景颜色和底边框都给li */
+.table_list li {
+    float: left;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+/* 鼠标单击li变化样式  背景变白色 去掉下边框 */
+.table_list .current {
+    background-color: #fff;
+    border-bottom: 0;
+}
+.first_table {
+    width: 104px;
+}
+.second_table {
+    width: 103px;
+    border-left: 1px solid #ccc
+}
+.table_con {
+    padding: 0 10px;
+}
+.table_con li {
+    border-bottom: 1px solid #ccc;
+}
+.table_con img {
+    display: block;
+    margin: 5px auto;
+}
+.table_con h5 {
+    white-space: nowrap;  /* 强制一行内显示 */
+    overflow: hidden;  /* 超出盒子的部分溢出隐藏 */
+    text-overflow: ellipsis;  /* 省略号代替超出的部分 */
+    font-size: 12px;
+}
+.aside_price {
+    font-weight: 700;
+    margin-top: 5px;
+}
+.as_addcar {
+    display: block;
+    width: 88px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    margin: 5px auto;
+}
+.table_con li.current {
+    border-bottom: 0;
+}
+.detail {
+    float: right;
+    width: 978px;
+    /* 一会儿回来删 
+    height: 1000px;*/
+    /* border: 1px solid #ccc; */
+}
+.detail_tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.detail_tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.detail_tab_list .current {
+    background-color: #c81623;
+    color: #fff;
+}
+.detail_tab_list .current a {
+    color: #fff;
+}
+.item_info {
+    padding: 20px 0 0 20px;
+}
+.item_info li {
+    line-height: 22px;
+}
+.more {
+    float: right;
+    font-weight: 700;
+    font-family: 'icomoon';
+}
